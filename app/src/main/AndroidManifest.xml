@@ -22,7 +22,9 @@
         <activity
             android:name=".Activities.AddEvent"
             android:label="@string/add_event" />
-        <activity android:name=".Activities.UpdateEvent" />
+        <activity
+            android:label="@string/update"
+            android:name=".Activities.UpdateEvent" />
         <activity
             android:name=".Activities.SplashScreen"
             android:theme="@style/Theme.FullScreen">
