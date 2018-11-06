@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="event_card_margin">6dp</dimen>
+    <dimen name="event_card_radius">8dp</dimen>
+    <dimen name="event_card_title_margin">8dp</dimen>
+    <dimen name="event_card_sub_title_margin">7dp</dimen>
+    <dimen name="login_title_size">25sp</dimen>
+    <dimen name="login_content_margin">16dp</dimen>
+    <dimen name="login_input_margin">5dp</dimen>
+    <dimen name="login_button_margin">8dp</dimen>
+    <dimen name="login_button_radius">10dp</dimen>
+    <dimen name="login_button_stroke">1dp</dimen>
+    <dimen name="add_event_button_margin">10dp</dimen>
+    <dimen name="add_event_input_margin">5dp</dimen>
+    <dimen name="add_event_text_margin">5dp</dimen>
+    <dimen name="time_remaining_size">12sp</dimen>
+</resources>
