@@ -77,7 +77,6 @@ public class Event {
 
 
     /**
-     *
      * @return now - selected date
      */
     public String getTimeRemaining() {
@@ -91,12 +90,12 @@ public class Event {
         } else if (days < 0) {
             return Math.abs(days) + " Days Past";
         } else {
-             long hours = TimeUnit.HOURS.convert(timeDiff, TimeUnit.MILLISECONDS);
-             if (hours <0){
-                 return hours + " Hours Past";
-             }else {
-                 return hours + " Hours Remaining";
-             }
+            long hours = TimeUnit.HOURS.convert(timeDiff, TimeUnit.MILLISECONDS);
+            if (hours < 0) {
+                return Math.abs(hours) + " Hours Past";
+            } else {
+                return Math.abs(hours) + " Hours Remaining";
+            }
         }
     }
 
